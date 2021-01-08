@@ -3,7 +3,14 @@
 <div class="item-product">
 	<div class="thumb">
 		<a href="<?php the_permalink(); ?>"><?php echo get_the_post_thumbnail(get_the_ID(), 'full', array('class' => 'thumnail')); ?></a>
+		<?php
+		if ($product->get_sale_price()!= 0) :?>
 		<span class="sale">Giảm <br><?php echo percenSale($product->get_regular_price(), $product->get_sale_price()); ?>%</span>
+		<?php
+		endif;
+		?>
+
+		<!-- <span class="sale">Giảm <br><?php echo percenSale($product->get_regular_price(), $product->get_sale_price()); ?>%</span> -->
 		<div class="action">
 			<a href="?add_to_cart=<?php the_ID(); ?>" class="buy"><i class="fa fa-cart-plus"></i> Mua ngay</a>
 			<a href="<?php the_permalink(); ?>" class="like"><i class="fa fa-heart"></i> Yêu thích</a>

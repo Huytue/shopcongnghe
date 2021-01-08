@@ -124,7 +124,7 @@
 											'hide_empty'    => 0,
 											'taxonomy' => 'product_cat',
 											'number' => 5,
-											'parent'    => $cat->term_id
+											'parent' => $cat->term_id
 										);
 										$categories = get_categories($args);
 										foreach ($categories as $category) { ?>
@@ -159,52 +159,6 @@
 							<div class="product-section">
 							<h2 class="title-product">
 								<?php $cat = get_term_by('id', 42, 'product_cat') ?>
-								<a href=" <?php echo get_term_link($cat->slug, 'product_cat'); ?>" class="title"><?php echo $cat->name ?></a>
-								<div class="bar-menu"><i class="fa fa-bars"></i></div>
-								<div class="list-child">
-									<ul>
-										<?php
-										$args = array(
-											'type'      => 'product',
-											'child_of'  => 0,
-											'hide_empty'    => 0,
-											'taxonomy' => 'product_cat',
-											'number' => 5,
-											'parent'    => $cat->term_id
-										);
-										$categories = get_categories($args);
-										foreach ($categories as $category) { ?>
-											<li><a href=" <?php echo get_term_link($category->slug, 'product_cat'); ?>"> <?php echo $category->name; ?></a></li>
-										<?php } ?>
-									</ul>
-								</div>
-								<div class="clear"></div>
-							</h2>
-							<div class="content-product-box">
-								<div class="row">
-									<?php $args = array(
-										'post_type' => 'product',
-										'posts_per_page' => 10,
-										'ignore_sticky_posts' => 1,
-										'product_cat' => $cat->slug
-									); ?>
-									<?php $getposts = new WP_query($args); ?>
-									<?php global $wp_query;
-									$wp_query->in_the_loop = true; ?>
-									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-										<?php global $product; ?>
-										<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-											<?php get_template_part('content/item_product'); ?>
-										</div>
-									<?php endwhile;
-									wp_reset_postdata(); ?>
-								</div>
-							</div>
-						</div>
-						<!-- Sản phẩm danh mục đồng hồ-->
-						<div class="product-section">
-							<h2 class="title-product">
-								<?php $cat = get_term_by('id', 55, 'product_cat') ?>
 								<a href=" <?php echo get_term_link($cat->slug, 'product_cat'); ?>" class="title"><?php echo $cat->name ?></a>
 								<div class="bar-menu"><i class="fa fa-bars"></i></div>
 								<div class="list-child">

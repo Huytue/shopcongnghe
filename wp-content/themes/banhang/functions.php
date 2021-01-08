@@ -9,7 +9,7 @@ function initTheme()
     add_theme_support( 'menus' );
 	// Đăng ký menu cho website
 	register_nav_menu('header-top', __('Menu top'));
-	register_nav_menu('header-main', __('Menu chính'));
+	register_nav_menu('header-main', __('Menu main'));
 	register_nav_menu('footer-menu', __('Menu footer'));
 
 	// Đăng ký sidebar cho website
@@ -97,7 +97,7 @@ add_action('init', 'slider_post_type');
 // Sản phẩm giảm giá
 
 function percenSale($price, $price_sale) {
-	$sale = ($price_sale * 100) / $price;
+	$sale = ((int)$price_sale * 100) / (int)$price;
 	$percent = 100 - $sale;
 	return number_format($percent,1);
 }

@@ -79,10 +79,10 @@
 							<a href="<?php bloginfo('url') ?>/gio-hang" class="icon-cart">
 								<div class="icon">
 									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
-									<span><?php foreach ( WC()->cart->get_cart() as $cart_item ) {  
-   $quantity +=  $cart_item['quantity'];
-   
-} echo $quantity;?></span>
+									<span><?php foreach (WC()->cart->get_cart() as $cart_item) {
+												$quantity +=  $cart_item['quantity'];
+											}
+											echo $quantity; ?></span>
 								</div>
 								<div class="info-cart">
 									<p>Giỏ hàng</p>

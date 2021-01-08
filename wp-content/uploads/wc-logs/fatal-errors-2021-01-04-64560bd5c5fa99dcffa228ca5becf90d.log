@@ -1,0 +1,90 @@
+2021-01-04T03:51:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:32:55+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:33:28+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:34:38+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:36:12+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:36:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:37:08+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:40:28+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:47:52+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 223
+
+2021-01-04T07:48:59+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:49:18+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
+2021-01-04T07:51:05+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php:208
+Stack trace:
+#0 C:\wamp64\www\shopcongnghe\wp-includes\template-loader.php(106): include()
+#1 C:\wamp64\www\shopcongnghe\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\shopcongnghe\index.php(17): require('C:\\wamp64\\www\\s...')
+#3 {main}
+  thrown in C:\wamp64\www\shopcongnghe\wp-content\themes\banhang\index.php on line 208
+
