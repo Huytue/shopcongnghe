@@ -686,4 +686,25 @@ function woocommerce_template_product_reviews() {
     woocommerce_get_template( 'single-product-reviews.php' );
     }
     add_action( 'woocommerce_after_single_product_summary', 'comments_template', 50 );
-?>
+
+
+function html5wp_pagination()
+{
+    global $wp_query;
+    $big = 999999999;
+    $pages = paginate_links(array(
+        'base' => str_replace($big, '%#%', get_pagenum_link($big)),
+        'format' => '?paged=%#%',
+        'current' => max(1, get_query_var('paged')),
+        'total' => $wp_query->max_num_pages,
+        'type'  => 'array',
+    ));
+    if( is_array( $pages ) ) {
+        $paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
+        echo '<div class="text-center"><ul class="pagination bounceInUp animated wow" data-wow-delay=".8s">';
+        foreach ( $pages as $page ) {
+                echo "<li>$page</li>";
+        }
+       echo '</ul></div>';
+        }
+}
